@@ -1,0 +1,34 @@
+{
+  "name": "lambdacommonutils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hchim/LambdaCommonUtils.git"
+  },
+  "author": "Hui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hchim/LambdaCommonUtils/issues"
+  },
+  "homepage": "https://github.com/hchim/LambdaCommonUtils#readme",
+  "dependencies": {
+    "mongodb": "^3.0.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^4.0.0",
+    "gulp-run": "^1.7.1",
+    "gulp-zip": "^4.1.0",
+    "gulp-babel": "^7.0.1"
+  }
+}
